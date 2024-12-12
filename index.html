@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            color: #333;
+        }
+        .messages {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        .message {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Messages from Discord</h1>
+
+    <div id="messagesContainer" class="messages">
+        <!-- Messages from Discord bot will be inserted here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
