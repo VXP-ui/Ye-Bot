@@ -8,7 +8,7 @@ document.getElementById("sendMessageForm").addEventListener("submit", async func
         return;
     }
 
-    const webhookUrl = "YOUR_DISCORD_WEBHOOK_URL";  // Replace with your Discord webhook URL
+    const webhookUrl = "https://discord.com/api/webhooks/1317080942614937632/oD_uETDdKWhDgIaPvJGq7_zElh5QcB-yxEMOiTwjjmoFmlJUBiMo60zgXwV1GBK7RiAG";  // Replace with your Discord webhook URL
     const payload = { content: userMessage };
 
     try {
